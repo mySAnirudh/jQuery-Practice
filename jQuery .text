@@ -1,0 +1,79 @@
+    
+
+    [[ Things to lern in jQuery ]]
+
+
+ 1. jQuery Overview 
+
+ 2. jQuery Selectors
+
+ 3. jQuery Events
+
+ 4. jQuery Effects
+
+ 5. jQuery HTML 
+
+ 6. jQuery CSS
+
+ 7. jQuery Traversing 
+
+ 8. jQuery Plugins
+
+
+   *** jQuery ***
+
+   -> Q. What is jQuery :-
+   
+    -1. jQuery is a JavaScript Library.
+    -2. Writes Less do more 
+    -3. jQuery greatly simplifies JavaScript programming.
+    -4. The purpose of jQuery is to make it much easier  to use JavaScript on your website.
+    -5. jQuery takes a lot of common tasks that require many lines of JavaScript code to accomplish,
+      and wraps them into methods that you can call with a single line of code.
+
+      **We can mix any JavaScript code or Library with jQuery
+
+    Q. Purpose of jQuery 
+    -> a. Simplify HTML DOM tree traversal and manipulation, as well as event handling, CSS animaion 
+    , and Ajax
+
+    -> b.  jQuery will run exactly the same in all major browsers. (browsers compatibility) 
+
+   -> Q. Should you learn jQuery
+   -->> Modern JavaScript solve  all the problem that jQuery was solving. Then why learn jQuery ?
+    A. -->> jQuery has Plugins for almost any task out there.
+     Note : Initial Release : August 26, 2006; 14 Years ago
+
+         ( Therefore it has a large Library size and Plugins)
+
+
+    
+    ** Flow of jQuery
+
+    1. Basics of jQuery 
+
+    2. How to search and use jQuery plugins.
+
+
+  1. Plugins :- 1. Cropper   (Cropper.js)
+       -> It's use of coop the image 
+
+       2. Magnify image :- It's like flipkart product image
+
+       3. 3D Slider 
+
+       4.Photo Gallery :- It's use for vloger
+
+       5. 3D Slider
+
+       6. Signature Pad 
+
+       7. 360 Product View 
+
+       8. Card Style, Image Print t-shurt , costumize the image in JS
+
+       9. Mouse Effects 
+
+
+
+

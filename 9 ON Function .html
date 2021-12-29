@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+</head>
+<body>
+    <p id="pra">  THis is P tag</p>
+    <button id="btn">Click here</button>
+    <br><br>
+    <div id="colored-div" style="background-color: green; height: 100px;
+    width: 100px;"></div>
+
+    <script>
+    // On Function :- It's use to apply multiple events on one elements 
+
+    // On Function :- Agar ek element pe multiple events lagana hai to " On function" 
+    // Waha use hota hai
+        
+
+        // $("#colored-div").mouseenter();
+        // $("#colored-div").mouseenter();
+
+        // This is long method. That's why we use on function
+
+        $("#colored-div").on({
+            click:function(){
+              $(this).css("background-color" , "red");  // Here 1st we use parameter then use value
+            },
+            mouseenter:function(){
+                $(this).css("background-color" , "yellow");
+            },
+            mouseleave:function(){
+                $(this).css("background-color" , "orange");
+            }
+        });
+        // So ON function we use:- Jab multiple events same element pe lagana ho
+        
+    </script>
+</body>
+</html>
