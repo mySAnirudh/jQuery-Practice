@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+</head>
+<body>
+    <!-- Input value alert use -->
+    <p id="pra">  THis is P tag</p>
+    <button id="btn1">Button 1</button>
+    <button id="btn2">Button 2</button>
+    <br><br>
+    <div id="colored-div" style="background-color: rgb(51, 219, 51); height: 100px;
+    width: 100px;">
+       <p>
+          This is P tag <a href="#">Link</a>
+      </p>
+    </div> 
+    <input type="text" name="" id="input1">
+      <script>
+          // This is featch text HTNL
+          $("#btn1").click(function(){
+         var value = $("#input1").val();
+          alert(value);
+
+          });
+      </script>
+</body>
+</html>

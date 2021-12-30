@@ -1,0 +1,14 @@
+
+
+
+   *** Attribute Get and Set *** 
+
+   ** Attribute :- JO bhi chij tag me (=) equal to karke koi value dete hai use Attribute
+      khege.
+      
+      -> Eg. id= 'hello'
+            type = 'input type'
+            class= 'hello'
+             etc...
+
+     ** Get and Set :- 
