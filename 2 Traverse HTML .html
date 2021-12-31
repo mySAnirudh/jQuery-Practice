@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    
+</head>
+<body>
+     <ul><!--   Grandparents  -->
+        <li>
+            <!-- Parents -->
+            <span id="span1">item1</span>    <!--Child-->
+        </li>
+
+        <li>
+            <span id="span2">item2</span>
+        </li>
+    </ul>
+
+    <script>
+        // var elm = $("#span1").parent();  // When we sue there parents S then it's select all 
+        // // element 
+        // elm.css("border", "1px solid red");
+
+        //** Here we select all parents 
+        // var elm = $("#span1").parents();  // When we sue there parents S then it's select all 
+        // // element 
+        // elm.css("border", "1px solid red");
+
+
+        //** Parents Until :- Here we can decide kaha tak select karna hai 
+
+        // var elm = $("#span1").parentsUntil("ul");  // ul :- Jaha bhi ul milega wahi tak celect karega 
+        // // Then uske aage anhi aajyeag
+        // // element 
+        // elm.css("border", "1px solid red");
+
+        //** Select from body 
+        // Yaha boday ke niche tak hi krega 
+        var elm = $("#span1").parentsUntil("body");
+        elm.css("border", "1px solid red"); 
+        
+    </script>
+</body>
+</html>

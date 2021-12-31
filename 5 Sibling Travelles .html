@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    
+</head>
+<body>
+   <ul id="list">
+       <li>Child 1</li>
+       <li>Child 2</li>
+       <li id="item1">Child 3</li>
+       <li>Child 4</li>
+       <li >Child 5</li>
+       <li id="tiem2">Child 6</li>
+   </ul>
+   
+    <script>
+        // var elm = $("#item1").siblings();
+        // elm.css("border", "1px solid red");  // Sibling select : Jisko select krega usko
+        // // Chor kar baaki sabko select krega
+
+
+        //** Sibiling Next Select 
+
+        // var elm = $("#item1").next();
+        // elm.css("border", "1px solid red");  // Iske uske ek baad ka select karega
+
+
+        // ** 2nd Next Sibiling Select 
+        // var elm = $("#item1").next().next();
+        // elm.css("border", "1px solid red"); 
+
+        // Isme uske ek chore ke select krega
+
+
+        //** Next All :- Uske niche wale saare silibing ko select krega
+
+        // var elm = $("#item1").nextAll();
+        // elm.css("border", "1px solid red"); 
+
+        // ** Untill :- Isme yaha se iske bich ka select krege
+
+        var elm = $("#item1").nextUntil("#item2");
+        elm.css("border", "1px solid red"); 
+    </script>
+</body>
+</html> 

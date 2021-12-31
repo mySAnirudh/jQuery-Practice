@@ -1,0 +1,23 @@
+
+ 
+ 
+   *** Traverse HTML ***
+
+   ** Traverse HTML :- It's means move through 
+
+   ** Traverse HTML :- Kisi aur elemt ko find karna, base on the relation on 
+   other element 
+
+   ->> E.g. Kisi Parents element ko select kiya to child  ko select karne ki jrurt 
+     nahi hai
+
+     E.g. <div>
+     <ul>
+     <li>
+     <span>item 1 </span>
+     </li>
+     <li>
+     <b>item2 </b>
+     </li>
+     </ul>
+     </div>

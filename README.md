@@ -1,1 +1,1 @@
-# jQuery-Practice
+# jqZoom

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    
+</head>
+<body>
+   <ul id="list">
+       <li id="tiem2">Child 1</li>
+       <li>Child 2</li>
+       <li id="item1">Child 3</li>
+       <li>Child 4</li>
+       <li >Child 5</li>
+       <li >Child 6</li>
+   </ul>
+   
+    <script>
+       var elm = $("#item1").prevUntil("#item2");
+       elm.css("border", "1px solid green");
+       
+    </script>
+</body>
+</html> 

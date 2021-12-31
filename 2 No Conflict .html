@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+
+</head>
+<body>
+    <!-- Here we change inside text -->
+  <p id="pra">This is P tag</p>  
+  
+  <button id="btn">Click</button>
+
+  <script>
+    //   // This is normal
+    // $("#btn").click(function(){
+    //     $("#pra").text("Text Changed");
+    // });
+  </script>
+
+  <script>
+      // This is No conflict method
+    //   $.noConflict();   // Ye lokhane se $(doller ) free kar diya jaayega
+
+
+    //   jQuery("#btn").click(function(){
+    //     jQuery("#pra").text("Text Changed");
+    // });
+
+
+    
+
+  </script>
+
+  <script>
+       // ** Sort Written jQuery
+     var jQ = $.noConflict();
+     
+     jQ("#btn").click(function(){
+        jQ("#pra").text("Text Changed");
+    });
+  </script>
+</body>
+</html>
